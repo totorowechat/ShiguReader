@@ -2,6 +2,36 @@
 
 Read Comic/Play Music and Video on all platforms
 
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/01.png">
+      </td>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/02.png">
+      </td>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/02.5.png">
+      </td>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/03.png">
+      </td>
+    </tr><tr></tr>
+    <tr>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/04.png">
+      </td>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/05.png">
+      </td>
+      <td align="center" valign="middle">
+          <img width="222px" src="https://raw.githubusercontent.com/totorowechat/ShiguReader/dev/screenshot/06.png">
+      </td>
+    </tr><tr></tr>
+  </tbody>
+</table>
+
 ## Getting Started
 
 ### Windows
