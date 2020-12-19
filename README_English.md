@@ -2,67 +2,63 @@
 
 Read Comic/Play Music and Video on all platforms
 
+## Getting Started
 
-##### Demo Video
-[demo video](https://youtu.be/nV24b6X6eeI)  
+### Windows
 
-##### Screenshot
+1. Download [ShiguReader.exe](/releases/tag/2.0.0-alpha).
+2. Modify `ini` file.
 
-![screenshot-01](screenshot/01.png)
-![screenshot-02](screenshot/02.png)
-![screenshot-02](screenshot/02.5.png)
-![screenshot-03](screenshot/03.png)
-![screenshot-04](screenshot/04.png)
-![screenshot-05](screenshot/05.png)
-![screenshot-06](screenshot/06.png)
+### OSX and Linux
 
-##### Features
+#### Prerequisites
 
-* view the thumbnails of zip/rar/7zip files
-* sort/search files
-* re-compress images to save disk space
-* move/delete files
-* play music files inside compressed files
-* play mp4/mkv/avi files
-* show statistics chart of all collections
-* same color theme as exh**tai
-* server runs on Windows/*nix
-* client runs on any modern browser(except IE)
-* browse image files in folders 
+For *nix people, please install `7zip`.
 
-### 使用
-For windows, downloaded the zip
-Modify ini，then click ShiguReader.exe
-For *nix people and developer, please refer to [Readme_Env_Setup](https://github.com/hjyssg/ShiguReader/blob/dev/Readme_Env_Setup.md)
+#### Set up
 
-### Third Party Dependency
-It is nice to have, but not mandatory
-install imagemagick  from https://imagemagick.org
+``` shell
+npm install 
+npm run dev
+```
 
-##### Safety
-ShiguReader is not safe when being accessed from the public IP. The server is not prepared for any cyber attack.
+If you live in China
 
-If you just want to read comic or watch anime when going outside, you can just download files into you tablet.
-For example, my ipad has VLC for video and ComicGlass for comic. I download file in Chrome browser and save them to the apps.
+```shell
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install 
+npm run dev
+```
 
-##### How to use on NAS
+### Docker
 
-Thanks to [this guy](https://github.com/hjyssg/ShiguReader/issues/90)
+```
+docker pull liwufan/shigureader
+docker run -d -p <hostport>:3000 -v <comicpath>:/data liwufan/shigureader
 
-##### Hotkey
+# <hostport> is the port to be opened by the host
+# <comicpath> is the directory of the files to be scanned
+```
 
-enter: browser enter/quit full screen
-AD and left right arrow key: go to next/previous page
-+-: zoom image
+See [dockerguide](./dockerguide.md)
 
-##### FAQ
-    Q： I can open the webpage, but it is empty or 404.
-    A: Please check your path-config.ini file
+### Building from source
 
-    Q：Why English Readme is much less than Chinese Readme?
-    A: I received more questions from Chinese community. But I do provide enough information here.
+See [Readme_Env_Setup.md](./Readme_Env_Setup.md)
 
 
-##### Have any question?
+## Running the tests
 
-If you have any question, just post in Github Issue.
+TODO
+
+## Contributing
+
+TODO
+
+## Authors
+
+- hjyssg <the398355565@gmail.com>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
